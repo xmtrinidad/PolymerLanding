@@ -53,7 +53,7 @@ Polymer uses *dom-if* in the same way that Angular uses **ngIf*.  In Polymer, th
 
 Once that is imported a ```<template></template>``` tag is used along with an *is* attribute that identifies the template as a *dom-if* template:
 
-```js
+```html
 <!-- Template: Show Link if item isn't a button -->
 <template is="dom-if" if="{{!navItem.isButton}}">
   <a href="#" class="Nav__list-item-link">[[navItem.name]]</a>
