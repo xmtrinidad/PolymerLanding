@@ -1,0 +1,7 @@
+{
+  "name": "landing-page",
+  "short_name": "landing-page",
+  "description": "landing page with polymer",
+  "start_url": "/",
+  "display": "standalone"
+}
